@@ -24,3 +24,17 @@ print(tom[:3])  # ("Tom", 37, "Google")
 
 # получем подкортеж с 1 по послдений элемент
 print(tom[1:])  # (37, "Google", "software developer")
+
+users = frozenset({"Tom", "Bob", "Alice"})
+print(len(users))
+
+users = {"Tom", "Bob", "Alice"}
+
+for user in users:
+    print(user)
+
+print(users)
+
+users5 = set()
+users5.add("Sam")
+print(users5)
